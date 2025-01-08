@@ -24,8 +24,13 @@ public class MaxLengthString {
                 maxLengthString = str;
             }
         }
+    
+       /* for (int i = 1; i < strings.length; i++) { // Start from index 1
+            if (strings[i].length() > maxLengthString.length()) {
+                maxLengthString = strings[i];
+            }
+        }*/
 
-        // Output the result
         System.out.println("The string with the maximum length is: " + maxLengthString);
         System.out.println("Length of the string: " + maxLengthString.length());
     }
